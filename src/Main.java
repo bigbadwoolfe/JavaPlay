@@ -13,5 +13,7 @@ public class Main {
         new Compress().run();
 
         new RotateMatrix().run();
+
+        new BlankMatrix().run();
     }
 }

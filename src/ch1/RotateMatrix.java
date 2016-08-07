@@ -37,7 +37,6 @@ public class RotateMatrix extends Question {
         System.out.println("5x5 Rotated:");
         printInt2D(rotate(d, inPlace));
 
-
         bye();
     }
 
@@ -93,15 +92,5 @@ public class RotateMatrix extends Question {
         }
 
         return in;
-    }
-
-
-    void printInt2D (int[][] in) {
-        for (int row = 0; row < in.length; row++) {
-            for (int col = 0; col < in[row].length; col++) {
-                System.out.print(String.format("%3d", in[row][col]));
-            }
-            System.out.println();
-        }
     }
 }
