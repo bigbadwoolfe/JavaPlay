@@ -15,5 +15,8 @@ public class Main {
         new RotateMatrix().run();
 
         new BlankMatrix().run();
+
+        new IsRotation().run();
+        
     }
 }
